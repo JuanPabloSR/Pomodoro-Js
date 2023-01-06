@@ -100,7 +100,7 @@ function timerBreakHandler() {
   }
 }
 
-function renderTime() {
+function renderTime() { 
   const timeDiv = document.querySelector("#time #value");
   const minutes = parseInt(time / 60);
   const seconds = parseInt(time % 60);
